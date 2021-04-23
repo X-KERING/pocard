@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.ibb.co/5WSxMFD/Stiker-Dekorasi-Latar-Belakang-Tubuh-Laptop-Kartun-Kepribadian-Mode-Stiker-Mainan-Klasik-Pokemon-Pik.webp">
+<img src="https://i.ibb.co/5WSxMFD/Stiker-Dekorasi-Latar-Belakang-Tubuh-Laptop-Kartun-Kepribadian-Mode-Stiker-Mainan-Klasik-Pokemon-Pik.webp" width="25%">
 </p>
 
 # Pokemon Card
