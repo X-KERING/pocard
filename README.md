@@ -6,8 +6,8 @@
 # Install This Library
 
 ```
-$ pip3 install pocard
-$ pip3 install git+https://github.com/krypton-byte/pocard
+$ git clone https://github.com/krypton-byte/pocard
+$ cd pocard && python3 setup.py build && python3 setup.py install --user
 ```
 # Use
 <p>CommandLine<p>
@@ -15,7 +15,7 @@ $ pip3 install git+https://github.com/krypton-byte/pocard
 ```bash
 $ pocard index[0-3] "title" "desc" input_image output_image method:[scale, crop, auto]
 example:
-    $ pocard 0 "Title" "desc" in.png out.jpg scale
+$ pocard 0 "Title" "desc" in.png out.jpg scale
 ```
 
 <p>Python Interpreter</p>

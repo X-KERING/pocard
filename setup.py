@@ -4,7 +4,9 @@ base_dir = path.abspath(path.dirname(__file__))
 setup(
   name = 'pocard',        
   packages = ['pocard'],   
-  version = '0.0.1',    
+  long_description=open(path.join(base_dir, "README.md"), encoding="utf-8").read(),
+  long_description_content_type='text/markdown',
+  version = '0.0.6',    
   license='MIT',     
   description = 'PokemonCard Generator', 
   author = 'Krypton Byte',                  
@@ -13,7 +15,7 @@ setup(
   download_url = 'https://github.com/krypton-byte/pocard/archive/0.0.1.tar.gz',    
   keywords = ['POkemon', "pokemon", "yugioh", "card", "maker", "generator"], 
   install_requires=[           
-          'pillow',
+          'pillow'
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',      
