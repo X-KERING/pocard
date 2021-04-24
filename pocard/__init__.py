@@ -72,7 +72,7 @@ class cardmaker:
         for x in range(background.height):
             for i in range(space_width):
                 background.putpixel((i, x), colorgenerator[3])  # Left
-            for y in range(background.width-space_width, background.width):
+            for y in range(background.width-space_width-1, background.width):
                 background.putpixel((y, x), colorgenerator[1])  # Right
         for i in range(background.width):
             for x in range(space_height):
